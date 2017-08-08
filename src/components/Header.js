@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, NavItem } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom';
 
 class Header extends Component {
 
@@ -31,7 +32,7 @@ class Header extends Component {
             <Navbar>
                 <Navbar.Header>
                     <Navbar.Brand>
-                        <a href="/">Kevin Vuong's Portfolio</a>
+                        <Link to="/">Kevin Vuong's Portfolio</Link>
                     </Navbar.Brand>
                 </Navbar.Header>
                 <Nav>

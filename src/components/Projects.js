@@ -17,11 +17,11 @@ class Projects extends Component {
             <Grid className="projects-grid">
                 <PageHeader className="page-header">Projects</PageHeader>
                 <Row className="project">
-                    <Col xs={12} md={6} lg={6}>
-                            <img width={700} height={300} className="image" src={ChatHome} alt="chat room home" />
-                            <img width={700} height={300} className="image"  src={ChatRoom} alt="chat room" />
+                    <Col xs={12} md={8} lg={9}>
+                            <img  className="image" src={ChatHome} alt="chat room home" />
+                            <img  className="image"  src={ChatRoom} alt="chat room" />
                     </Col>
-                    <Col className="media-body" xs={12} md={6} lg={6}>
+                    <Col className="media-body" xs={12} md={4} lg={3}>
                         <h1>Chat Application</h1>
                         <p className="app-description">
                             A Chat application created using the React, Express, SocketIO, and the Geolocation web API.
@@ -49,10 +49,10 @@ class Projects extends Component {
                 </Row>
                 <hr/>
                 <Row className="project">
-                    <Col xs={12} md={6} lg={6}>
-                        <img width={700} height={735} className="image" src={HEMA} alt="hema" />
+                    <Col xs={12} md={8} lg={9}>
+                        <img className="image" src={HEMA} alt="hema" />
                     </Col>
-                    <Col className="media-body" xs={12} md={6} lg={6}>
+                    <Col className="media-body" xs={12} md={4} lg={3}>
                         <h1>Glossary Application</h1>
                         <p className="app-description">
                             A glossary application created using the React, Express, MongoDB, Mongoose, and Bootstrap.

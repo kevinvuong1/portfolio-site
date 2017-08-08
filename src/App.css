@@ -32,19 +32,18 @@ p {
 }
 
 .contact-para {
-    margin-top: 90px;
-    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
     min-height: 70vh;
+    background: #F1F1F1;
+    width: 50%;
 }
 
-.chat-image {
+.image {
     margin: 10px;
-}
-
-.media {
-    margin: 15px;
 }
 
 .btn {
@@ -82,4 +81,13 @@ p {
     height: 500px;
     padding: 50px;
     margin-bottom: 55px;
+}
+
+.project {
+    display: flex;
+    margin: 15px;
+}
+
+.projects-grid {
+    width: 100%;
 }

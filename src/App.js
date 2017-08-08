@@ -20,6 +20,7 @@ class App extends Component {
                 <Route path="/about" component={About} />
                 <Route path="/contact" component={Contact} />
               </Switch>
+            <hr/>
             <Footer/>
           </div>
         </BrowserRouter>

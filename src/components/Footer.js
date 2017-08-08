@@ -6,8 +6,8 @@ class Footer extends Component {
         const year = new Date().getFullYear();
         const gitLink = "https://github.com/kevinvuong1/portfolio-site";
         return (
-            <div>
-                <p className="footer">Copyright © Kevin Vuong {year}</p>
+            <div className="footer">
+                <p>Copyright © Kevin Vuong {year}</p>
                 <p>Source code for this website: <a href={gitLink}>GitHub</a></p>
             </div>
         );

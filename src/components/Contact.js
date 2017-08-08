@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import resume from '../asset/Resume_Kevin_Vuong.pdf';
 
 class Contact extends Component {
 
@@ -9,6 +10,7 @@ class Contact extends Component {
                 <p>Email: <a href="mailto:vuongkevin1@gmail.com">vuongkevin1@gmail.com</a></p>
                 <p>LinkedIn: <a href="https://www.linkedin.com/in/kevin-vuong1">https://www.linkedin.com/in/kevin-vuong1</a></p>
                 <p>GitHub: <a href="https://github.com/kevinvuong1">https://github.com/kevinvuong1</a></p>
+                <p>Download link for <a href={resume} download>Resume</a></p>
             </address>
         );
     }

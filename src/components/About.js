@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import portrait from '../images/Portrait.JPG';
+import portrait from '../images/Portrait.jpg';
 import {Grid, Row, Col, Image} from 'react-bootstrap';
 import resume from '../asset/Resume_Kevin_Vuong.pdf';
 

@@ -8,7 +8,7 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <p>Copyright © Kevin Vuong {year}</p>
-                <p>Source code for this website: <a href={gitLink}>GitHub</a></p>
+                <p>Source code for this website: <a target="_blank" href={gitLink}>GitHub</a></p>
             </div>
         );
     }

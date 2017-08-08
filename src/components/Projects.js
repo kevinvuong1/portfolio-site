@@ -18,8 +18,8 @@ class Projects extends Component {
                 <PageHeader className="page-header">Projects</PageHeader>
                 <Media className="media">
                     <Media.Left align="middle">
-                            <img width={700} height={300} className="chat-image" src={ChatHome} />
-                            <img width={700} height={300} className="chat-image"  src={ChatRoom} />
+                            <img width={700} height={300} className="chat-image" src={ChatHome} alt="chat room home" />
+                            <img width={700} height={300} className="chat-image"  src={ChatRoom} alt="chat room" />
                     </Media.Left>
                     <Media.Body className="media-body">
                         <Media.Heading>
@@ -48,7 +48,7 @@ class Projects extends Component {
                 </Media>
                 <Media className="media">
                     <Media.Left align="middle">
-                        <img width={700} height={735} className="chat-image" src={HEMA} />
+                        <img width={700} height={735} className="chat-image" src={HEMA} alt="hema" />
                     </Media.Left>
                     <Media.Body className="media-body">
                         <Media.Heading>

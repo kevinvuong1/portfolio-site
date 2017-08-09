@@ -14,9 +14,11 @@ class About extends Component {
                             <Image src={portrait} circle responsive />
                         </Col>
                         <Col xs={8} md={10}>
-                            <p>Hi! I'm a recent graduate aspiring to be a full-stack web developer.
+                            <p>Hi! I'm a recent graduate seeking a web developer position.
                                 I like to code in my free time, building apps that solve problems.
+                                Outside of coding, I enjoy fencing and playing the guitar.
                                 I am proficient in the MERN stack (MongoDB, Express, React, Node).
+                                Please see my resume for more information.
                                 <br/><br/>Download link for <a href={resume} download>Resume</a>
                             </p>
                         </Col>

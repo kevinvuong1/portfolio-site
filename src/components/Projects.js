@@ -22,7 +22,7 @@ class Projects extends Component {
                             <img  className="image"  src={ChatRoom} alt="chat room" />
                     </Col>
                     <Col className="media-body" xs={12} md={4} lg={3}>
-                        <h1>Chat Application</h1>
+                        <h1 className="project-header">Chat Application</h1>
                         <p className="app-description">
                             A Chat application created using the React, Express, SocketIO, and the Geolocation web API.
                             This application supports real-time communication between multiple users in the same chat room.
@@ -53,7 +53,7 @@ class Projects extends Component {
                         <img className="image" src={HEMA} alt="hema" />
                     </Col>
                     <Col className="media-body" xs={12} md={4} lg={3}>
-                        <h1>Glossary Application</h1>
+                        <h1 className="project-header">Glossary Application</h1>
                         <p className="app-description">
                             A glossary application created using the React, Express, MongoDB, Mongoose, and Bootstrap.
                             A user can search for terms and filter by language.

@@ -2,14 +2,8 @@
   text-align: left;
   font-size: 16px;
     font-family: 'Roboto', sans-serif;
-
-
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9fd8ef+54,2ab0ed+100 */
-    background: #9fd8ef; /* Old browsers */
-    background: -moz-linear-gradient(-45deg, #9fd8ef 54%, #2ab0ed 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg, #9fd8ef 54%,#2ab0ed 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg, #9fd8ef 54%,#2ab0ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fd8ef', endColorstr='#2ab0ed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */}
+    background-color: #B0D6DC;
+}
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

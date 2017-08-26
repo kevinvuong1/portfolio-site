@@ -27,7 +27,7 @@ class Projects extends Component {
                             A Chat application created using the React, Express, SocketIO, and the Geolocation web API.
                             This application supports real-time communication between multiple users in the same chat room.
                             A user can join a room and chat to anyone who is also in the same room.
-                            A dropdown shows the list of rooms that currently have user(s)  in it.
+                            A dropdown shows the list of rooms that currently have user(s) in it.
                             A user can also tell other users their location by clicking on the "send location" button.
                             The styling was done using SASS following the BEM methodology. Flexbox was used for layout.
                             <br/><br/>
@@ -58,7 +58,7 @@ class Projects extends Component {
                             A glossary application created using the React, Express, MongoDB, Mongoose, and Bootstrap.
                             A user can search for terms and filter by language.
                             A REST API was developed inside Express for the backend to add terms to the glossary.
-                            A Mongoose Schema and model was used to define the data to be stored inside MongoDB.
+                            A Mongoose Schema and model was used to define the data to be stored inside the MongoDB database.
                             The refresh button will retrieve a JSON list of all the terms from the glossary.
                             The submit button will add a term to the database. Form validation is in place for both the
                             server and client side of the application.
